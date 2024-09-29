@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!--Untuk mendefinisikan tipe dokumen sebagai HTML-->
+<html> <!--Digunakan untuk membungkus semua elemen HTML-->
+    <head> <!--sebagai isi informasi meta tentang dokumen-->
+       <title>Profil pribadi</title> <!--memberikan judul halaman web, ditampilkan di tab browser-->
+    </head>
+    <body> <!--sebagai isi konten dari halaman web-->
+        <h1>Profil Pribadi</h1><!--untuk menampilkan tulisan dengan ukuran besar sebagai judul utama web-->
+        <table height="100%" width="100%"><!--digunakan untuk membuat tabel, alasan digunakan agar penempatan lebih rapih-->
+            <tr><!--untuk membuat baris pada tabel-->
+                <th align="center" style="padding: 10px;">Foto Profil</th><!--untuk membuat judul sebuah kolom pada tabel-->
+                <th align="center" style="padding: 10px;">Video Perkenalan</th><!--untuk membuat judul sebuah kolom pada tabel-->
+            </tr>
+            <tr><!--untuk membuat baris pada tabel-->
+                <td align="center" style="padding: 10px;"><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="foto profil" style="width: 175px; height: 200px;"><!--digunakan untuk menampilkan gambar/foto-->
+                </td>
+                <td align="center" style="padding: 10px;"><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                    <video width="360" height="200" controls><!--digunakan untuk menampilkan video-->
+                        <source src="movie.mp4" type="video/mp4"><!--untuk mendefinisikan sumber video-->
+                        <source src="movie.ogg" type="video/ogg"><!--untuk mendefinisikan sumber video-->
+                    </video>
+                </td>
+            </tr>
+        </table>
+        <div><!--digunakan untuk mengelompokkan konten pada web-->
+            <h2>Tentang Saya</h2><!--digunakan untuk membuat subjudul dengan ukuran lebih kecil dibandingkan judul utama-->
+            <p> Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif. </p><!--untuk menampilkan teks paragraf-->
+        </div>
+        <div><!--digunakan untuk mengelompokkan konten pada web-->
+            <h2>Keterampilan</h2><!--digunakan untuk membuat subjudul dengan ukuran lebih kecil dibandingkan judul utama-->
+            <table> <!--digunakan untuk membuat tabel, alasan digunakan agar penempatan lebih rapih-->
+                <tr><!--untuk membuat baris pada tabel-->
+                    <th align="left">Keterampilan</th><!--untuk membuat judul sebuah kolom pada tabel-->
+                    <th align="left">Tingkat</th><!--untuk membuat judul sebuah kolom pada tabel-->
+                </tr>
+                <tr><!--untuk membuat baris pada tabel-->
+                    <td align="left">HTML/CSS</td><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                    <td align="left">Mahir</td><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                </tr>
+                <tr><!--untuk membuat baris pada tabel-->
+                    <td align="left">JavaScript</td><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                    <td align="left">Menengah</td><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                </tr>
+                <tr><!--untuk membuat baris pada tabel-->
+                    <td align="left">Python</td><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                    <td align="left">Pemula</td><!--digunakan untuk membuat sel/kotak kolom pada tabel-->
+                </tr>
+            </table>
+        </div>
+        <div><!--digunakan untuk mengelompokkan konten pada web-->
+            <h2>Hubungi Saya</h2><!--digunakan untuk membuat subjudul dengan ukuran lebih kecil dibandingkan judul utama-->
+            <form><!--digunakan untuk input data pengguna-->
+                <label for="id_nama">Nama:</label><!--untuk memberikan label pada elemen input-->
+                <input type="text" id="id_nama" name="id_nama"><!--untuk menerima input dari pengguna--><br><!--untuk membuat baris baru-->
+                <label for="id_email">Email:</label><!--untuk memberikan label pada elemen input-->
+                <input type="text" id="id_email" name="id_email"><!--untuk menerima input dari pengguna--><br>
+                <label for="id_pesan">Pesan:</label><!--untuk memberikan label pada elemen input--><br>
+                <textarea name="id_pesan" id="id_pesan"></textarea><!--untuk menerima input teks yang lebih panjang dari pengguna--><br>
+                <button type="submit">Kirim Pesan</button><!--digunakan untuk membuat tombol untuk mengirim form-->
+            </form>
+        </div>
+        <div><!--digunakan untuk mengelompokkan konten pada web-->
+            <h2>Media Social:</h2><!--digunakan untuk membuat subjudul dengan ukuran lebih kecil dibandingkan judul utama-->
+            <a href="https://www.linkedin.com/in/alifya-chairunnisa-57884a21b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> <!--digunakan untuk membuat tautan-->|
+            <a href="https://github.com/fyananis">GitHub</a> <!--digunakan untuk membuat tautan-->|
+            <a href="https://x.com/fyananisa?t=6CfHBnv7ZzUbui2nJIyVlg&s=08">Twitter</a><!--digunakan untuk membuat tautan-->
+        </div>
+        <h4 align="center">Semoga Selalu diberi kemudahan^^</h4><!--digunakan untuk membuat subjudul dengan ukuran lebih-->
+    </body>
+</html>
